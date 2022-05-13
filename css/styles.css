@@ -183,6 +183,13 @@ header, .navbar {
   background-size: cover;
   height: 100%;
 }
+#pattern-img {
+  background-image: url('../img/balança2.jpg');
+  background-size: cover;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
 
 /* Área do cartão */
 
