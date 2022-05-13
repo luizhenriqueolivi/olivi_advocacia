@@ -180,48 +180,36 @@ header, .navbar {
   height: 100%;
 }
 
-/* News Letter */
+/* Área do cartão */
 
-#news-area {
-  text-align: center;
+#about-area {
   background-color: #F9F9F9;
 }
 
-#news-area p {
-  font-size: 18px;
-  margin-bottom: 40px;
-  
+.main-title {
+  color: #444;
+  margin: 0 0 65px 0;
+  font-size: 40px;
+  text-align: center;
 }
 
-#email-input {
-  border-radius: 0;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border: 1px solid goldenrod;
-  display: inline;
-  box-sizing: border-box;
-  width: 40%;
-  height: 40px;
-}
-
-#news-btn {
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border: 1px solid goldenrod;
-  background-color: goldenrod;
-  color: #FFF;
-  text-transform: uppercase;
-  height: 40px;
-  padding: 0 30px;
-  margin-left: -130px;
+.main-title::after {
+  content: "";
+  border-top: 2px solid #333;
+  width: 15%;
   position: absolute;
-  transition: .5s;
+  top: 60px;
+  left: 42.5%;
 }
 
-#news-btn:hover {
-  background-color: #FFF;
-  color: goldenrod;
+.about-title {
+  font-size: 17px;
+  color: #444;
+  text-transform: uppercase;
+  font-weight: bold;
 }
+
+
 /* Footer */
 
 #contact-area {
