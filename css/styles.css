@@ -99,6 +99,10 @@ header, .navbar {
   text-transform: uppercase;
   font-weight: bold;  
 }
+.about-title h3, p {
+  color: #444;
+  font-size: 16px;
+}
 
 /* Área de atuação */
 
@@ -208,7 +212,10 @@ header, .navbar {
   text-transform: uppercase;
   font-weight: bold;
 }
-
+.about-title h3, p {
+  color: #444;
+  font-size: 16px;
+}
 
 /* Footer */
 
