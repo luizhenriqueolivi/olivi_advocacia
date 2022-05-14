@@ -102,6 +102,7 @@ header, .navbar {
 .about-title h3, p {
   color: #444;
   font-size: 16px;
+  text-align: justify;
 }
 
 /* Área de atuação */
